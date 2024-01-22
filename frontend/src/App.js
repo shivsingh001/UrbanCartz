@@ -1,10 +1,11 @@
 
 import './App.css';
+import Navbar from './components/Navbar01/Navbar';
 
 function App() {
   return (
-    <div className=' bg-orange-500'>
-      Ecommerce
+    <div className=''>
+    <Navbar/>
     </div>
   );
 }
