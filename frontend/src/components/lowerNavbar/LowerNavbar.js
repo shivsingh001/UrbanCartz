@@ -27,7 +27,7 @@ const LowerNavbar = () => {
         <div className="flex flex-row">
           <div className="flex flex-row px-6 space-x-2 justify-center items-center">
             <div>{IconProfile()}</div>
-            <h1>Log In</h1>
+            <a href="/login">Log In</a>
           </div>
           <div className="flex px-6 space-x-2 justify-center items-center">
             {IconHeart()}
